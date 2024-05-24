@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=GCD
+comment1.params=str
+comment1.target=void\ print(java.lang.String)
+comment2.params=str
+comment2.target=void\ println(java.lang.String)
+comment3.params=min\ max
+comment3.target=int\ random(int,\ int)
+comment4.params=num1\ num2
+comment4.target=void\ swapCheck(double,\ double)
+comment5.params=number\ decimal
+comment5.target=double\ round(double,\ double)
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

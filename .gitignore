@@ -1,0 +1,76 @@
+.DS_Store
+.idea/
+.vs/
+Icon
+.nvim.lua
+build/
+Backups/
+.metadata/
+Drivers/
+Lectures/
+*.zip
+genai.txt
+bin/
+obj/
+*.key
+
+Middlewares/
+Drivers/
+gcc-arm-none-eabi-10.3-2021.10/
+
+node_modules/
+Presentation2Video.mp4
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.bin
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf

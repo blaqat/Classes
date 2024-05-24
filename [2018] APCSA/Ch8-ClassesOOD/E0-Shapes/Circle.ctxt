@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Circle
+comment0.text=\ Aiden\r\n\ Programs\:\ Ch8\r\n\ Programming\ -\ 4y\r\n\ Finally\ O-OP\ \:3\r\n\ Maybe\ its\ time\ to\ move\ away\ from\ triangles\ to\ no\ sided\ shapes...\r\n\ like\ hexagons\ \:)\r\n
+comment1.params=
+comment1.target=Circle()
+comment2.params=rad
+comment2.target=Circle(double)
+comment3.params=newRadius
+comment3.target=void\ setRadius(double)
+comment4.params=
+comment4.target=double\ getRadius()
+comment5.params=
+comment5.target=double\ getArea()
+comment6.params=
+comment6.target=double\ circumference()
+numComments=7

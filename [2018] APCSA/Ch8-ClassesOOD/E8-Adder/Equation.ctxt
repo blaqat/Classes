@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Equation
+comment1.params=
+comment1.target=Equation()
+comment10.params=num
+comment10.target=boolean\ equals(int)
+comment2.params=mo
+comment2.target=Equation(char)
+comment3.params=n1\ n2
+comment3.target=void\ setEquation(int,\ int)
+comment4.params=ans
+comment4.target=void\ setAnswer(int)
+comment5.params=
+comment5.target=int\ getAnswer()
+comment6.params=
+comment6.target=void\ setMode()
+comment7.params=mo
+comment7.target=void\ setMode(char)
+comment8.params=
+comment8.target=void\ generateEquation()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=11

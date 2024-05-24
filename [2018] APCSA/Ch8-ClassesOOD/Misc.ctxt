@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Misc
+comment1.params=str
+comment1.target=void\ print(java.lang.String)
+comment10.params=money
+comment10.target=java.lang.String\ moneyFormat(double)
+comment2.params=str
+comment2.target=void\ println(java.lang.String)
+comment3.params=min\ max
+comment3.target=int\ random(int,\ int)
+comment4.params=number\ decimal
+comment4.target=double\ round(double,\ double)
+comment5.params=
+comment5.target=void\ clear()
+comment6.params=
+comment6.target=void\ printBar()
+comment7.params=title
+comment7.target=void\ printTitle(java.lang.String)
+comment8.params=integer
+comment8.target=int\ intLength(int)
+comment9.params=string
+comment9.target=java.lang.String\ stringReverse(java.lang.String)
+numComments=11

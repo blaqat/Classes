@@ -1,0 +1,7 @@
+3 Possible Next Actions:
+
+1. Figure out how MIDI files are controlled. (Learn what signals playing and stopping etc)
+
+2. Plan initial code structure (Classes, Abstractions if any, etc)
+
+3. Learn how the board is controlled. (Similar to MIDI but for the hardware aspect instead of software)

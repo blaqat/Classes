@@ -1,0 +1,4 @@
+.nvim.lua
+build/
+Backups/
+.DS_Store

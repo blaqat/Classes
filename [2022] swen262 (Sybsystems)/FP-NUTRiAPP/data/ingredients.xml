@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <ingredient>
+    <name>Cheese</name>
+    <calories>113.0</calories>
+    <fibers>0.0</fibers>
+    <fat>9.0</fat>
+    <protein>7.0</protein>
+    <carbohydrates>0.4</carbohydrates>
+    <quantity>1</quantity>
+  </ingredient>
+  <ingredient>
+    <name>Egg</name>
+    <calories>78.0</calories>
+    <fibers>0.0</fibers>
+    <fat>5.0</fat>
+    <protein>6.0</protein>
+    <carbohydrates>0.6</carbohydrates>
+    <quantity>3</quantity>
+  </ingredient>
+  <ingredient>
+    <name>Bread</name>
+    <calories>79.0</calories>
+    <fibers>0.8</fibers>
+    <fat>1.0</fat>
+    <protein>2.7</protein>
+    <carbohydrates>15.0</carbohydrates>
+    <quantity>2</quantity>
+  </ingredient>
+</root>

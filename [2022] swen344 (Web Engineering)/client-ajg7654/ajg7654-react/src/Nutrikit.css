@@ -1,0 +1,41 @@
+body {
+    font-family: 'Segoe UI';
+    background-color: rgb(248, 185, 177);
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+}
+
+label {
+    vertical-align: top;
+}
+
+.Components {
+    height: 100%;
+}
+
+.form {
+    display: grid;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    grid-template-columns: auto auto auto auto;
+}
+
+.FoodCategories {
+    height: 100%
+}
+
+.SelectItemButton{
+    height: 100%
+}
+
+.SelectedItems{
+    height: 100%;
+}

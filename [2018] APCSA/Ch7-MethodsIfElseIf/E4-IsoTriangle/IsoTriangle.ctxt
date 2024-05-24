@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=IsoTriangle
+comment1.params=str
+comment1.target=void\ print(java.lang.String)
+comment2.params=str
+comment2.target=void\ println(java.lang.String)
+comment3.params=min\ max
+comment3.target=int\ random(int,\ int)
+comment4.params=number\ decimal
+comment4.target=double\ round(double,\ double)
+comment5.params=length\ mark
+comment5.target=void\ drawBar(int,\ java.lang.String)
+comment6.params=length
+comment6.target=void\ addSpaces(int)
+comment7.params=size
+comment7.target=void\ newIsoTriangle(int)
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

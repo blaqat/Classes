@@ -1,0 +1,84 @@
+3B 80 27 00
+
+Delay: 59
+Event: Off
+Channel: 0
+Note: 39
+Velocity: 0
+
+
+
+83 18 91 54 64
+
+HAVE: 10000011 00011000
+WANT: delay = 00000001 10011000
+
+---------------------------------------
+
+a 		= 10000011
+
+// get 1st bit
+has_more	=  a>>7  = 00000001 
+
+// mask off 1st bit
+a&01111111  =  00000011
+
+!  IF/WHILE  has_more  !
+
+	// make space for 2nd byte
+	a<<8		= 00000011 00000000 
+	---------------------------------------
+
+	b 		= 00011000
+
+	has_more	=  b>>7  =  00000000
+
+	//remove 1st bit
+	b&01111111  = 00011000
+	b<<1		= 00110000
+	---------------------------------------
+
+	//insert b into a
+	delay 	=  a | b  = 00000011 00000000 | 00110000  =   00000011 00110000
+
+	//account for missing bit in a and b
+	delay>>1	=  00000001 10011000
+	
+
+!  ELSE  !
+	//delay is just the first byte (masked off 1st bit)
+	delay		=  a = 00000011
+
+
+
+
+
+
+Delay: 408
+Event: On
+Channel: 1
+Note: 84
+Velocity: 100
+
+C5 92 74 E3 74 12
+11000101 10010010 01110100
+1 0001 0100 1001 0111 0100
+Delay: 1132916
+Event: Pitch Wheel Change
+Channel: 3
+Pitch Wheeel Change: 
+01110100 00010010
+0010010 1110100
+2420
+
+
+90 82 93 64 D3 89 
+10010000 10000010 10010011 01100100
+0010 0000 0000 1000 1001 1110 0100
+Delay: 33589732
+Event: Channel Pressure (After Touch)
+Channel: 3
+Pressure Value:
+10001001
+0001001
+9

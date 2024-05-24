@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MorseCode
+comment1.params=
+comment1.target=MorseCode()
+comment2.params=let
+comment2.target=MorseCode(char)
+comment3.params=let
+comment3.target=void\ setChar(char)
+comment4.params=
+comment4.target=java.lang.String\ getMorseCode()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

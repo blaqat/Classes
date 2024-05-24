@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=SmileyFace
+comment1.params=
+comment1.target=SmileyFace()
+comment2.params=window
+comment2.target=void\ paint(java.awt.Graphics)
+comment3.params=window
+comment3.target=void\ smileyFace(java.awt.Graphics)
+numComments=4

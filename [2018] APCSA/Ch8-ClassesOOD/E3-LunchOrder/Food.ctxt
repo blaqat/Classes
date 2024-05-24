@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Food
+comment1.params=
+comment1.target=Food()
+comment2.params=nam
+comment2.target=Food(java.lang.String)
+comment3.params=nam\ pric\ fats\ carbs\ fibs
+comment3.target=Food(java.lang.String,\ double,\ double,\ double,\ double)
+comment4.params=
+comment4.target=double\ getPrice()
+comment5.params=
+comment5.target=double\ getFat()
+comment6.params=
+comment6.target=double\ getCarbs()
+comment7.params=
+comment7.target=double\ getFibers()
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

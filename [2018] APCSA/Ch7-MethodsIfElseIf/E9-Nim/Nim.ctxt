@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Nim
+comment1.params=str
+comment1.target=void\ print(java.lang.String)
+comment2.params=str
+comment2.target=void\ println(java.lang.String)
+comment3.params=min\ max
+comment3.target=int\ random(int,\ int)
+comment4.params=number\ decimal
+comment4.target=double\ round(double,\ double)
+comment5.params=entry\ stones
+comment5.target=boolean\ isValidEntry(int,\ int)
+comment6.params=type\ stones
+comment6.target=int\ drawStones(int,\ int)
+comment7.params=stones
+comment7.target=int\ nextRound(int)
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

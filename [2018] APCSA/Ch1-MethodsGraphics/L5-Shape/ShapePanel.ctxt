@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ShapePanel
+comment1.params=
+comment1.target=ShapePanel()
+comment2.params=window
+comment2.target=void\ update(java.awt.Graphics)
+comment3.params=window
+comment3.target=void\ paint(java.awt.Graphics)
+comment3.text=\r\nAll\ of\ your\ test\ code\ should\ be\ placed\ in\ paint.\r\n
+numComments=4

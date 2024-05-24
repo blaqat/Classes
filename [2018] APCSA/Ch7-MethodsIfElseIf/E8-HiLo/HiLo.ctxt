@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=HiLo
+comment1.params=str
+comment1.target=void\ print(java.lang.String)
+comment2.params=str
+comment2.target=void\ println(java.lang.String)
+comment3.params=min\ max
+comment3.target=int\ random(int,\ int)
+comment4.params=number\ decimal
+comment4.target=double\ round(double,\ double)
+comment5.params=points
+comment5.target=void\ checkPoints(int)
+comment6.params=points
+comment6.target=int\ Play(int)
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

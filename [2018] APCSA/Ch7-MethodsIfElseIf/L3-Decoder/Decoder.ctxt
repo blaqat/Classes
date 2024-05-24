@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Decoder
+comment1.params=
+comment1.target=Decoder()
+comment2.params=let
+comment2.target=Decoder(char)
+comment3.params=let
+comment3.target=void\ setLetter(char)
+comment4.params=
+comment4.target=char\ deCode()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

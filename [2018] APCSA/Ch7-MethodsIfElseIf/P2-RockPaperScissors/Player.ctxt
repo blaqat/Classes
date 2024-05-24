@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Player
+comment1.params=nm
+comment1.target=Player(java.lang.String)
+comment2.params=nm\ ch
+comment2.target=Player(java.lang.String,\ java.lang.String)
+comment3.params=nm
+comment3.target=void\ setName(java.lang.String)
+comment4.params=ch
+comment4.target=void\ setChoice(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getChoice()
+comment6.params=
+comment6.target=java.lang.String\ getName()
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8

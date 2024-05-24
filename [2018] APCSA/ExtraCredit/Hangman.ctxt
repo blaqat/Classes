@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Hangman
+comment0.text=\r\n\ Aiden\ Green\r\n\ Lol\ ;00000\r\n\ triggered\r\n\ extra\ stuff\ here\ ;)\r\n
+comment1.params=
+comment1.target=void\ main()
+comment2.params=
+comment2.target=void\ intro()
+comment3.params=type
+comment3.target=java.lang.String[]\ getCategory(int)
+comment4.params=
+comment4.target=java.lang.String[]\ getBodyParts()
+comment5.params=guess
+comment5.target=void\ newGuess(java.lang.String)
+comment6.params=
+comment6.target=void\ printHang()
+comment7.params=
+comment7.target=void\ nextRound()
+comment8.params=state
+comment8.target=void\ next(int)
+comment8.text=\ next\ function\ changes\ the\ terminal\ depending\ on\ the\ number\ entered\r\n\ States\:\r\n\ -2.\ \ Continue?\ Prompt\ ->>\ (2)\r\n\ -1.\ \ Resets\ the\ game\ (except\ score)\ and\ goes\ to\ category\ menu\r\n\ \ 0.\ \ Plays\ the\ next\ round\r\n\ \ 1.\ \ You\ Win\ message,\ adds\ points,\ prompts\ to\ either\ quit\ (5),\ reset\ (-1),\ or\ continue\ the\ game\ (0)\r\n\ \ 2.\ \ Choses\ new\ word,\ redies\ round\ for\ new\ round,\ continues\ the\ game\ (0)\r\n\ \ 3.\ \ Prompt\ to\ either\ quit\ (5)\ or\ chose\ a\ new\ category\ (-1)\r\n\ \ 4.\ \ You\ Lose\ message,substracts\ points,prompts\ to\ either\ quit\ (5),\ reset\ (-1),\ or\ continue\ the\ game\ (0)\r\n\ \ 5.\ \ Game\ Over\!\r\n
+numComments=9

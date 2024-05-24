@@ -1,0 +1,27 @@
+[
+	{
+		"name": "Cheese",
+		"calories": "113.0",
+		"fibers": "0.0",
+		"fat": "9.0",
+		"protein": "7.0",
+		"carbohydrates": "0.4",
+		"quantity": "1"
+	},	{
+		"name": "Egg",
+		"calories": "78.0",
+		"fibers": "0.0",
+		"fat": "5.0",
+		"protein": "6.0",
+		"carbohydrates": "0.6",
+		"quantity": "3"
+	},	{
+		"name": "Bread",
+		"calories": "79.0",
+		"fibers": "0.8",
+		"fat": "1.0",
+		"protein": "2.7",
+		"carbohydrates": "15.0",
+		"quantity": "2"
+	}
+]

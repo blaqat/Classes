@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=HexToBinary
+comment1.params=
+comment1.target=HexToBinary()
+comment2.params=hexNum
+comment2.target=HexToBinary(char)
+comment3.params=hexNum
+comment3.target=void\ setHex(char)
+comment4.params=
+comment4.target=java.lang.String\ getBinary()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6
