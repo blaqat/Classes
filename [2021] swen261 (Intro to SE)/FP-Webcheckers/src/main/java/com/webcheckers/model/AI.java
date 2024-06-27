@@ -207,7 +207,7 @@ public class AI extends GamePlayer {
         return optimalMove;
     }
 
-    //This method is the same as the paretn but only worked when in here.
+    //This method is the same as the parent but only worked when in here.
     public boolean validateMove(Move move) {
         if (turnOver) {
             return false;

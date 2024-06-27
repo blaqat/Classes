@@ -1,8 +1,0 @@
-Lectures/
-.DS_Store
-*.zip
-genai.txt
-bin/
-obj/
-.nvim.lua
-*.key

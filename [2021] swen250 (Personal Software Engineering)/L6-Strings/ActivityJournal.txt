@@ -1,0 +1,19 @@
+SWEN-250 Activity Reflection
+
+Name: Aiden Green
+
+================================================================
+Start
+Estimated Time	01 30
+Plan: Go inorder by the function was written and use the test_find results to find errors
+(Order of implementation, testing approach, etc.)
+
+Complete
+Actual Time	02 40
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+My main problem was not paying attention to whether I was using a !=, =, or == which resulted in weird results.
+Also, alot of my time was spent rewriting the last function from scratch over and over
+because I knew the way I thought about it would work, I was just messing up one thing.
+
+================================================================

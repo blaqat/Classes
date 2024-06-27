@@ -1,0 +1,17 @@
+SWEN-250 Activity Reflection
+
+Name: Aiden Green
+
+================================================================
+Part 2 (Part 1 not required)
+Estimated Time	00 30
+Plan:
+Use a for loop in the checkPrime method to count the number of evenly disivle numbers and then if it is less than 3 then the number is prime
+
+Complete
+Actual Time	00 33
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+I was mostly just dumb and tried to use a "sqrt" function that didn't exist that took most of my time.
+
+================================================================

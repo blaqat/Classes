@@ -1,0 +1,26 @@
+SWEN-250 Activity Reflection
+
+Name: Aiden Green
+
+================================================================
+Start
+Estimated Time	01 00
+Plan:
+Make function to convert a string into a count chars
+Add ability to count words by checking for spaces
+Add ability to check for lines by checking for /n
+Test with short files
+Test with DarkAndStormyNight
+
+Compiled: 22
+
+Complete
+Actual Time	02 22
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+I kept trying to do things that I learned from other languages that work so differently
+in C. It still didnt end up working correctly btu I dont have time to find out way because
+I procrastonated too long and have other stuff to do (time management)
+
+
+================================================================

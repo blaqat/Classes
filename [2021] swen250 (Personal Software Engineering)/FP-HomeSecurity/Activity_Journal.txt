@@ -1,0 +1,77 @@
+SWEN-250 Project Activity Journal
+Home Security "C" Project - Part 2
+
+Name: Aiden Green
+
+===========  Level 1  ==========================================
+Start
+Estimated Time	02 00
+Plan:
+(Order of implementation, testing approach, estimation technique)
+I will be doing the add room, add event functions first because they are the simplest
+I'll probably look to the solutions for the first part of this project an get some of the print functions
+I saw so I don't have to write them again. Then I will write the skeleton for process reading in which
+I wont write the functionality for each event just the way it will handle doing the events (if statements)
+And finally I'll write the events themself.
+I said 2 hours because I expect there to be a lot of bugs starting off but from here it should be simpler.
+
+Complete
+Actual Time	02 35 (a little more than 1/4 of the time I expected)
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+I completely forgot how to create new nodes using memaloc so I was fighting with segmentation errors
+for an hour not knowing where it was coming from even though it should have been obvious.
+This is much easier than I thought other than that, and I'm curious to see if it breaks for level 2?
+I don't see how it will.
+
+===========  Level 2  ==========================================
+Start
+Estimated Time	00 05 OR 00 30 (see plan)
+Plan:
+(Order of implementation, testing approach, estimation technique)
+I'm going to test my current code with level 2 first and see what errors pop up and then I'll know 
+what I need to do from there, because right now I think my code my work for level 1 and 2 already...
+
+Complete
+Actual Time	00 15  (half the time I expected with errors)
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+So as I thought my code mostly already worked for level 2.
+I only had to change one thing because for level one I had it so the room it created
+would always be set to room 1 instead of the "room int" variable.
+So when I first tested I got segmentations errors which confused me because I know all the memory is fine
+based off tests from level 1.
+Also, at the end I realized that my level 1 wasn't actually functioning 100% properly; it was printing all but one event
+So I quickly fixed that. 
+So technically I'd call this an undertime.
+
+
+===========  Level 3  ==========================================
+Start
+Estimated Time	00 30
+Plan:
+(Order of implementation, testing approach, estimation technique)
+I will simply be filling in the code for trim_list and then uncommenting out the function since I already placed it in 
+process a reading.
+Then after all of that is working, I will refactor my code for the rest of the functions to make things prettier, and add documentation.
+I assume this will take half an hour because anytime before I have tried to mess with removing memory I've gotten errors that took a bit to solve.
+
+Complete
+Actual Time	00 45 (50% longer than what I was expecting but not for the reasons I expected)
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+I under shot a bit because I realized afterwards that I needed to ACTUALLY PLAN what I was going to do algorithmically for trimming.
+I actually freed up the space correctly first try though but my output wasn't matching the sample output
+I realized that the room_ecount was static regardless if you trimmed it or not and that made me have to rethink my freeing algorithm which used
+e_count as a point of reference to loop.
+
+
+===========  PROJECT PART 2 SUMMARY REFLECTION  =======================
+Considering how long we had to to this project, I'm quite suprised about how "easy" it felt
+I mean, sure it took me hours to figure out simple mistakes, but the overall process was not 
+complicated. It's not easy, but it's also not as hard as I thought it would be.
+The biggest problem I faced was forgetting to malloc space which should be hardcode by now into me (but it is not)
+My estimates are never consistant because after I fail one I think I'm going to need much more time
+and if I succeeed one I think I can do the next in less time. Also after I improve one I start focusing on the time too much instead of thinking about
+the code and algorithms. So I become sloppy and add even more time fixing simple mistakes.
+===============================================================

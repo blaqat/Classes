@@ -1,0 +1,17 @@
+WEN-250 Activity Reflection
+
+Name:Aiden Green
+
+================================================================
+Implement code to pass all unit tests
+
+Estimated Time	01:30
+Plan:
+(Order of implementation, testing approach, etc.)
+I will just go in order of the functions listed in the file from the download and then
+test using the test file to check for errors and things not working correctly
+Complete
+Actual Time	03:3
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+I forgot to null verify the strings so I kept getting weird results so I rewrote the same functional code 20 times. After I figured it out it took 20 minutes to do the rest...

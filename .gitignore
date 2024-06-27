@@ -2,7 +2,6 @@
 .idea/
 .vs/
 Icon
-.nvim.lua
 build/
 Backups/
 .metadata/

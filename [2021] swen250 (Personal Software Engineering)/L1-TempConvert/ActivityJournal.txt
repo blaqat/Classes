@@ -1,0 +1,33 @@
+SWEN-250 Activity Reflection
+
+Name: Aiden Green
+
+================================================================
+Start Part 1
+Estimated Time	00 30
+Plan:
+Add a function to convert cel to fahr
+Add the main method to output the returned values
+
+Compiles: 7
+
+Complete
+Actual Time	00 24
+Observations:
+I literally could not paste from my clipboard using shift+ins, or any other solution.
+Doing anything in command line is just worse and more time consuming than using a UI
+
+================================================================
+Start Part 2
+Estimated Time	00 10
+Plan:
+Replace int with float in the convert cel to fahr function
+Round the float to 1 decimal for the output
+
+Complete
+Actual Time	00 05
+Observations:
+The printf string argument is more useful than I thought. That's all I can say about this
+
+
+================================================================

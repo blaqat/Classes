@@ -1,0 +1,18 @@
+WEN-250 Activity Reflection
+
+Name: Aiden Green
+
+================================================================
+Start
+Estimated Time: 30 mins
+Plan:
+(Order of implementation, testing approach, etc.)
+Implement the readfile.c first, then the main.c to work with readfile.c then
+make the makefile to use for easy testing.
+Complete
+Actual Time	HH 15
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+I mixed up what the symbols * and & do for pointers
+
+================================================================
