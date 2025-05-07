@@ -1,0 +1,25 @@
+image:
+  name: kalrabb/docker-331-dvwa-img # don't change this
+  entrypoint: [""] # don't change this
+before_script:
+  # don't change these either
+  - /opt/lampp/xampp start
+  - echo "Xampp started"
+  # my alterations
+  - python3 --version
+  - pip3 --version
+  - pip3 install MechanicalSoup
+  - pip3 install pathlib
+  - pip3 install argparse
+  - pip3 install tqdm
+fuzzrunner:
+  script:
+    # - python3 fuzz.py discover http://localhost/dvwa --custom-auth=dvwa --common-words=cfg/common_words.txt --part0
+    # - python3 fuzz.py discover http://localhost/fuzzer-tests --verbose --common-words=cfg/common_words.txt
+    # - python3 fuzz.py discover http://localhost/dvwa --custom-auth=dvwa --common-words=cfg/common_words.txt --extensions=cfg/extensions.txt
+    # - python3 fuzz.py discover http://localhost/fuzzer-tests --common-words=cfg/common_words.txt --extensions=cfg/extensions.txt --verbose
+    # - python3 fuzz.py test http://localhost/fuzzer-tests --common-words=cfg/common_words.txt --extensions=cfg/extensions.txt --vectors=cfg/vectors.txt --sensitive=cfg/sensitive.txt
+    # - python3 fuzz.py test http://localhost/fuzzer-tests --common-words=cfg/common_words.txt --vectors=cfg/vectors.txt --sensitive=cfg/sensitive.txt
+    - python3 fuzz.py test http://localhost/dvwa --custom-auth=dvwa --common-words=cfg/common_words.txt --extensions=cfg/extensions.txt --vectors=cfg/vectors.txt --sensitive=cfg/sensitive.txt --sanitized-chars=cfg/sanitized_chars.txt
+    - python3 fuzz.py test http://localhost/fuzzer-tests --common-words=cfg/common_words.txt --extensions=cfg/extensions.txt --vectors=cfg/vectors.txt --sensitive=cfg/sensitive.txt --sanitized-chars=cfg/sanitized_chars.txt
+  stage: test

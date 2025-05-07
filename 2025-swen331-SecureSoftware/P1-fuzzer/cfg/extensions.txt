@@ -1,0 +1,12 @@
+
+.css
+.html
+.js
+.js
+.json
+.jsonc
+.jsp
+.jsx
+.md
+.php
+.txt
