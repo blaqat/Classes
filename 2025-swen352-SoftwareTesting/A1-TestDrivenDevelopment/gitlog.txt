@@ -1,0 +1,287 @@
+commit b6443370e5c53c98eee584326fb099ee7095da2a
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 14:06:00 2025 -0400
+
+    CircularQueue : 3b : isEmpty returns false if the queue has items :  create passing code
+
+commit 8952c6b648fff14ec942c709cf6bdd6d3703342a
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 14:04:08 2025 -0400
+
+    CircularQueue : 3b : isEmpty returns false if the queue has items :  create failing test
+
+commit ed7c547d8d45a0a09ef141b1a3b26a0844ada50f
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 14:01:57 2025 -0400
+
+    CircularQueue : 3a : isEmpty returns true for a new queue : create passing code
+
+commit adc809ca8d6071a63f817bc650060043074c321c
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 14:01:34 2025 -0400
+
+    CircularQueue : 3a : isEmpty returns true for a new queue : create failing test
+
+commit 9358b50ddb0f27e8e4fa2eed5cf510dd19ebd827
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 13:55:18 2025 -0400
+
+    CircularQueue : 2b : add throws IllegalStateException when queue is full : refactored main/test code
+
+commit ad6dc2d185ed1db19b8a9f07150545a649d44600
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 13:54:07 2025 -0400
+
+    CircularQueue : 2b : add throws IllegalStateException when queue is full : create passing code
+
+commit 5e651145f43bba99f0344ebb36ae54e203751e70
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 13:53:58 2025 -0400
+
+    CircularQueue : 2b : add throws IllegalStateException when queue is full : create failing test
+
+commit f30a5413f58dd88dfcdb5f43be327ed8280f5f0a
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 13:42:17 2025 -0400
+
+    CircularQueue : 2a : add element to the queue : create passing code
+
+commit a91c8271399ac6c25b2f894f1534cbe797065d63
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 13:39:36 2025 -0400
+
+    CircularQueue : 2a : add element to the queue : create failing test
+
+commit 8b109c4177a0a0cfbe1e2f5256fbd5ff2fa2b1d5
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 13:29:40 2025 -0400
+
+    CircularQueue : 1b : construct with specified capacity : refactored main/test code
+
+commit b899f11eb825fc90b59f1de996ba851cbde47341
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 13:28:59 2025 -0400
+
+    CircularQueue : 1b : construct with specified capacity : create passing code
+
+commit 88283f97a76ad1ee26ee5c48039cac266aeff071
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 13:28:28 2025 -0400
+
+    CircularQueue : 1b : construct with specified capacity : create failing test
+
+commit 783802a3f01ad0e7f7605e99d1da55d352c0d307
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 13:21:45 2025 -0400
+
+    CircularQueue : 1a : construct with default capacity : create passing code
+
+commit c87ed2c62237d60f93d4601e6aa7e1a05844942f
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 13:20:23 2025 -0400
+
+    CircularQueue : 1a : construct with default capacity : create failing test
+
+commit 8b44f2d01a933e26a19f115618d0c3e7cb0fffad
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 13:19:18 2025 -0400
+
+    MyCircularQueue Proposal Init
+
+commit 50affacbd54950049e0d80dd6509722e5674dd26
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 11:55:44 2025 -0400
+
+    MyList : 7a : forEach executes consumer over each element in the list : refactored main/test code
+
+commit 2d02913da4c9c67b673854c43e916711e9b30ba3
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 11:48:58 2025 -0400
+
+    MyList : 7a : forEach executes consumer over each element in the list : create passing code
+
+commit b7b54da8df2e6d08cecf7d7dc1efa3e0136a3fda
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 11:45:15 2025 -0400
+
+    MyList : 7a : forEach executes consumer over each element in the list : create failing test
+
+commit ca4a35ebb6287f1b214550cc58ba5370dc54ece9
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 11:34:20 2025 -0400
+
+    MyList : 6b : returns # of items in list : refactored main/test code
+
+commit 7772e38f87bbac9ec25e8c9621f1523c2baec02a
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 10:44:48 2025 -0400
+
+    MyList : 6b : returns # of items in list : create passing code
+
+commit bce53f0f00579de7f03ed692398fec816332c2a1
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 10:43:25 2025 -0400
+
+    MyList : 6b : returns # of items in list : create failing test
+
+commit d8af09ac2538e6a6794ae133517b2c8e77934e8c
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 10:37:23 2025 -0400
+
+    MyList : 6a : returns 0 for an empty list : create passing code
+
+commit a54627c1f2f4eb9df19080e071f3a4028e191816
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 10:35:40 2025 -0400
+
+    MyList : 6a : returns 0 for an empty list : create failing test
+
+commit f2e42f8d3b3edcdf6d88ffc455f908667e31a2d0
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 10:32:29 2025 -0400
+
+    MyList : 5b : returns false when list has 1 or more items : create passing code
+
+commit 1236a03e60a7f360a1858c3a3badbcbf8fd75737
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 10:31:54 2025 -0400
+
+    MyList : 5a : returns true when list has no items : create passing code
+
+commit 1a8da520dc9ae00a3a696f9da8054c7d1cf09f90
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 10:31:17 2025 -0400
+
+    MyList : 5a : returns true when list has no items : create failing test
+
+commit a2482366c70cf227c436802e9ddd80889242a39a
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 10:21:17 2025 -0400
+
+    MyList : 4b : use indexes out of bounds of the list to throw error : create passing code
+
+commit 72d46b4259903aed09ab8e466cadc05b905a2c36
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 10:19:42 2025 -0400
+
+    MyList : 4b : use indexes out of bounds of the list to throw error : create failing test
+
+commit 2f10a2cc4810f7ba83948661c5eee70da094779f
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 10:09:25 2025 -0400
+
+    MyList : 4a : get an element from the list by index : create passing code
+
+commit 38d266c161f24de7e929a38a05972e22029584ab
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 10:09:17 2025 -0400
+
+    MyList : 4a : get an element from the list by index : create failing test
+
+commit fcf314fbc1b4b2318fa142833f75056a2e8bbb5b
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 10:01:55 2025 -0400
+
+    MyList : 3b : try to remove an element that is not in the list (Nothing should happen) : create passing test
+
+commit 3fd4ec18d2baa7e129f17d696a704d4047efffbb
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 09:58:42 2025 -0400
+
+    MyList : 3a : remove an element from the list : create passing code
+
+commit e2485ebf7ca38a4b17f605a84e6c437bf41bebea
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Tue May 27 09:47:00 2025 -0400
+
+    MyList : 3a : remove an element from the list : create failing test
+
+commit 881cacbfe78fbf7c3e4e74b390850c360c3f4d51
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Sat May 24 01:43:25 2025 -0400
+
+    MyList : 2c : try to add element in an empty list: refactored main/test code
+
+commit 9376e230e93187aa1ac17b90bf061a3e62b13b90
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Sat May 24 01:41:08 2025 -0400
+
+    MyList : 2c : try to add element in an empty list: create passing code
+
+commit ed1db42b767fa4f57b4e90813ec43cc1ed07b675
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Sat May 24 01:39:46 2025 -0400
+
+    MyList : 2c : try to add element in an empty list: create failing test
+
+commit c115acc20df39a5cfc693a19735ed29330dbd8e3
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Sat May 24 01:22:40 2025 -0400
+
+    MyList : 2b : try to add element that already exists in list : create passing code
+
+commit 3f1569f14439740cf4d6e724dd0458ba02db63f1
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Sat May 24 01:21:41 2025 -0400
+
+    MyList : 2b : try to add element that already exists in list : create failing test
+
+commit 80c6c9a7479198fb2f05d1048eb1973148700189
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Sat May 24 01:19:34 2025 -0400
+
+    MyList : 2a : add element to list : create passing code
+
+commit 66624b4094f8c1d3785b08f7b1b12d20cf60eebb
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Sat May 24 01:12:06 2025 -0400
+
+    MyList : 2a : add element to list : create failing test
+
+commit 51c8b898703bc8b023941486d7f502d6eebf190c
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Sat May 24 00:27:01 2025 -0400
+
+    MyList : 1c : construct a list with many initial elements : refactored main/test code
+
+commit 1090096d0dcdfe1085f7cfa921353c0b99a4ea45
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Sat May 24 00:20:37 2025 -0400
+
+    MyList : 1c : construct a list with many initial elements : create passing code
+
+commit 95734ce15d71af8bd0c9ad9c74fa1d2b9b9db01f
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Sat May 24 00:17:26 2025 -0400
+
+    MyList : 1c : construct a list with many initial elements : create failing test
+
+commit 841f29368345cb5d3b65f1830a83edf46572ff17
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Sat May 24 00:11:26 2025 -0400
+
+    MyList : 1b : construct a list with 1 initial element : create passing code
+
+commit 851c985bd9ea4601a588b90c3f1c9b677d1d2da2
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Sat May 24 00:09:29 2025 -0400
+
+    MyList : 1b : construct a list with 1 initial element : create failing test
+
+commit 0cf32b4a53dfc14a018e5c98a8b8f23cc1820674
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Fri May 23 23:42:42 2025 -0400
+
+    MyList : 1a : construct an empty list : create passing code
+
+commit b0a956fc3120e522dc70eace7cff9c3761024600
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Fri May 23 23:25:16 2025 -0400
+
+    MyList : 1a : construct an empty list : create failing test
+
+commit 2d3237f3b17c4f9167ea44c2ec344d8cbc873656
+Author: Aiden Green <70248258+blaqat@users.noreply.github.com>
+Date:   Thu May 22 10:48:54 2025 -0400
+
+    Starter Files Init

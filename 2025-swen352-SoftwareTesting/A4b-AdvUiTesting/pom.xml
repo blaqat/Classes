@@ -1,0 +1,203 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>edu.rit.swen352</groupId>
+  <artifactId>UI-Testing-Advanced</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>UI Tests: Test Planning and Design</name>
+  <description>
+    UI Testing activity that explores testing a relatively large and complex Angular webapp.
+  </description>
+
+  <properties>
+
+    <!-- General build properties -->
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <jdk.version>21</jdk.version>
+
+    <!-- Application build dependency versions -->
+    <maven.compiler.version>3.13.0</maven.compiler.version>
+    <maven.assembly.version>3.7.1</maven.assembly.version>
+
+    <!-- Test dependency versions -->
+    <junit.jupiter.version>5.10.2</junit.jupiter.version>
+    <selenium.version>4.22.0</selenium.version>
+
+    <!-- Test build dependency versions -->
+    <maven.surefire.version>3.2.5</maven.surefire.version>
+
+    <browser.type>CHROME</browser.type>
+    <screen.mode>DESKTOP</screen.mode>
+
+  </properties>
+
+  <dependencies>
+
+    <!-- START: Testing libraries -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>${junit.jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-params</artifactId>
+      <version>${junit.jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>${junit.jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>${selenium.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- END: Testing libraries -->
+
+  </dependencies>
+
+  <build>
+    <plugins>
+
+      <!-- START: Application build plugins -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>${maven.compiler.version}</version>
+        <configuration>
+          <source>${jdk.version}</source>
+          <target>${jdk.version}</target>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <!-- Distribution zipfile is created using the assembly plugin -->
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <version>${maven.assembly.version}</version>
+        <configuration>
+          <descriptors>
+            <descriptor>src/assembly/zip.xml</descriptor>
+          </descriptors>
+          <finalName>${project.artifactId}</finalName>
+          <appendAssemblyId>false</appendAssemblyId>
+        </configuration>
+        <goals>
+          <goal>single</goal>
+        </goals>
+      </plugin>
+      <!-- END: Application build plugins -->
+
+      <!-- START: Testing plugins -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>${maven.surefire.version}</version>
+        <dependencies>
+          <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.jupiter.version}</version>
+          </dependency>
+          <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit.jupiter.version}</version>
+          </dependency>
+        </dependencies>
+        <configuration>
+          <argLine>-DbrowserType=${browser.type} -DscreenMode=${screen.mode}</argLine>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-report-plugin</artifactId>
+        <version>${maven.surefire.version}</version>
+      </plugin>
+      <!-- END: Testing plugins -->
+
+    </plugins>
+  </build>
+
+  <profiles>
+
+    <profile>
+      <id>debug</id>
+      <properties>
+        <maven.surefire.debug>
+          -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=localhost:5005
+        </maven.surefire.debug>
+      </properties>
+    </profile>
+
+    <!--
+       The following profiles are to execute the tests against a specific browser.
+       By default, if no profile is supplied, the code will use Chrome.
+       So:
+          ./mvnw test
+       is the same as:
+          ./mvnw test -P chrome
+    -->
+
+    <!-- Maven profile to run the UI tests on the Chrome browser. -->
+    <profile>
+      <id>chrome</id>
+      <properties>
+        <browser.type>CHROME</browser.type>
+      </properties>
+    </profile>
+
+    <!-- Maven profile to run the UI tests on the Firefox browser. -->
+    <profile>
+      <id>firefox</id>
+      <properties>
+        <browser.type>FIREFOX</browser.type>
+      </properties>
+    </profile>
+
+    <!-- Maven profile to run the UI tests on the Safari browser. -->
+    <profile>
+      <id>safari</id>
+      <properties>
+        <browser.type>SAFARI</browser.type>
+      </properties>
+    </profile>
+
+    <!-- Maven profile to run the UI tests on the Microsoft Edge browser. -->
+    <profile>
+      <id>edge</id>
+      <properties>
+        <browser.type>EDGE</browser.type>
+      </properties>
+    </profile>
+
+    <!-- Maven profile to run the UI tests in Desktop size mode. -->
+    <profile>
+      <id>desktop</id>
+      <properties>
+        <screen.mode>DESKTOP</screen.mode>
+      </properties>
+    </profile>
+
+    <!-- Maven profile to run the UI tests in Phone size mode. -->
+    <profile>
+      <id>phone</id>
+      <properties>
+        <screen.mode>PHONE</screen.mode>
+      </properties>
+    </profile>
+
+  </profiles>
+
+</project>

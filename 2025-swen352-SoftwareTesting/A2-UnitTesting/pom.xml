@@ -1,0 +1,169 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>edu.rit.se.swen352</groupId>
+  <artifactId>coffeemaker</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>CoffeeMaker</name>
+  <description>
+    CoffeeMaker activity using JUnit 5.
+  </description>
+
+  <properties>
+
+    <!-- General build properties -->
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <jdk.version>21</jdk.version>
+
+    <!-- Application build dependency versions -->
+    <maven.compiler.version>3.13.0</maven.compiler.version>
+    <maven.exec.version>1.6.0</maven.exec.version>
+    <maven.assembly.version>3.7.1</maven.assembly.version>
+
+    <!-- Test dependency versions -->
+    <junit.jupiter.version>5.10.2</junit.jupiter.version>
+    <mockito.version>5.12.0</mockito.version>
+
+    <!-- Test build dependency versions -->
+    <maven.surefire.version>3.2.5</maven.surefire.version>
+    <jacoco.version>0.8.12</jacoco.version>
+
+  </properties>
+
+  <dependencies>
+
+    <!-- START: Unit testing libraries -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>${junit.jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-params</artifactId>
+      <version>${junit.jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>${junit.jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>${mockito.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- END: Unit testing libraries -->
+
+  </dependencies>
+
+  <build>
+    <plugins>
+
+      <!-- START: Application build plugins -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>${maven.compiler.version}</version>
+        <configuration>
+          <source>${jdk.version}</source>
+          <target>${jdk.version}</target>
+        </configuration>
+      </plugin>
+
+      <!-- Distribution zipfile is created using the assembly plugin -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <version>${maven.assembly.version}</version>
+        <configuration>
+          <descriptors>
+            <descriptor>src/assembly/zip.xml</descriptor>
+          </descriptors>
+          <finalName>CoffeeMaker-solution</finalName>
+          <appendAssemblyId>false</appendAssemblyId>
+        </configuration>
+        <goals>
+          <goal>single</goal>
+        </goals>
+      </plugin>
+      <!-- END: Application build plugins -->
+
+      <!-- START: Testing plugins -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>${maven.surefire.version}</version>
+        <dependencies>
+          <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.jupiter.version}</version>
+          </dependency>
+          <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit.jupiter.version}</version>
+          </dependency>
+        </dependencies>
+        <configuration>
+          <argLine>
+            -XX:+EnableDynamicAgentLoading
+          </argLine>
+          <testFailureIgnore>true</testFailureIgnore>
+          <forkCount>2</forkCount>
+          <reuseForks>true</reuseForks>
+          <argLine>${surefireArgLine}</argLine>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-report-plugin</artifactId>
+        <version>${maven.surefire.version}</version>
+      </plugin>
+
+      <plugin>
+        <groupId>org.jacoco</groupId>
+        <artifactId>jacoco-maven-plugin</artifactId>
+        <version>${jacoco.version}</version>
+        <configuration>
+          <append>true</append>
+          <destFile>${project.build.directory}/coverage-reports/jacoco.exec</destFile>
+          <dataFile>${project.build.directory}/coverage-reports/jacoco.exec</dataFile>
+        </configuration>
+        <executions>
+          <execution>
+            <id>default-prepare-agent</id>
+            <goals>
+              <goal>prepare-agent</goal>
+            </goals>
+            <configuration>
+              <propertyName>surefireArgLine</propertyName>
+            </configuration>
+          </execution>
+          <execution>
+            <id>default-report</id>
+            <phase>test</phase>
+            <goals>
+              <goal>report</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.reporting.outputDirectory}/jacoco</outputDirectory>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <!-- END: Testing plugins -->
+
+    </plugins>
+  </build>
+
+</project>

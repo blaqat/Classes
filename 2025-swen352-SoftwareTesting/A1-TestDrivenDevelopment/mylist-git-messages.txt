@@ -1,0 +1,60 @@
+COMP : TEST-# : DESC : TYPE OF CHANGE
+MyList : 1a : construct an empty list : create failing test
+MyList : 1a : construct an empty list : create passing code
+MyList : 1a : construct an empty list : refactored main/test code
+
+MyList : 1b : construct a list with 1 initial element : create failing test
+MyList : 1b : construct a list with 1 initial element : create passing code
+MyList : 1b : construct a list with 1 initial element : refactored main/test code
+
+MyList : 1c : construct a list with many initial elements : create failing test
+MyList : 1c : construct a list with many initial elements : create passing code
+MyList : 1c : construct a list with many initial elements : refactored main/test code
+
+MyList : 2a : add element to list : create failing test
+MyList : 2a : add element to list : create passing code
+MyList : 2a : add element to list : refactored main/test code
+
+MyList : 2b : try to add element that already exists in list : create failing test
+MyList : 2b : try to add element that already exists in list : create passing code
+MyList : 2b : try to add element that already exists in list : refactored main/test code
+
+MyList : 2c : try to add element in an empty list: create failing test
+MyList : 2c : try to add element in an empty list: create passing code
+MyList : 2c : try to add element in an empty list: refactored main/test code
+
+MyList : 3a : remove an element from the list : create failing test
+MyList : 3a : remove an element from the list : create passing code
+MyList : 3a : remove an element from the list : refactored main/test code
+
+MyList : 3b : try to remove an element that is not in the list? (Nothing should happen) : create failing test
+MyList : 3b : try to remove an element that is not in the list? (Nothing should happen) : create passing code
+MyList : 3b : try to remove an element that is not in the list? (Nothing should happen) : refactored main/test code
+
+MyList : 4a : get an element from the list by index : create failing test
+MyList : 4a : get an element from the list by index : create passing code
+MyList : 4a : get an element from the list by index : refactored main/test code
+
+MyList : 4b : use indexes out of bounds of the list to throw error : create failing test
+MyList : 4b : use indexes out of bounds of the list to throw error : create passing code
+MyList : 4b : use indexes out of bounds of the list to throw error : refactored main/test code
+
+MyList : 5a : returns true when list has no items : create failing test
+MyList : 5a : returns true when list has no items : create passing code
+MyList : 5a : returns true when list has no items : refactored main/test code
+
+MyList : 5b : returns false when list has 1 or more items : create failing test
+MyList : 5b : returns false when list has 1 or more items : create passing code
+MyList : 5b : returns false when list has 1 or more items : refactored main/test code
+
+MyList : 6a : returns 0 for an empty list : create failing test
+MyList : 6a : returns 0 for an empty list : create passing code
+MyList : 6a : returns 0 for an empty list : refactored main/test code
+
+MyList : 6b : returns # of items in list : create failing test
+MyList : 6b : returns # of items in list : create passing code
+MyList : 6b : returns # of items in list : refactored main/test code
+
+MyList : 7a : forEach executes consumer over each element in the list : create failing test
+MyList : 7a : forEach executes consumer over each element in the list : create passing code
+MyList : 7a : forEach executes consumer over each element in the list : refactored main/test code

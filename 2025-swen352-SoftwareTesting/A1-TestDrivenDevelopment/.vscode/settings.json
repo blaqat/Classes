@@ -1,0 +1,21 @@
+{
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false
+	},
+	"editor.fontFamily": "Monaspace Xenon",
+	"workbench.colorTheme": "Paper Alternate",
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": "keyword, storage.type.primitive, storage.modifier, type",
+				"settings": {
+					"fontStyle": "bold"
+				}
+			}
+		]
+	},
+	"java.format.comments.enabled": false
+}

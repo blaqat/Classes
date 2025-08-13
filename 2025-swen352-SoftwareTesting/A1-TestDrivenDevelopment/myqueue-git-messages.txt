@@ -1,0 +1,52 @@
+COMP : TEST-# : DESC : TYPE OF CHANGE
+CircularQueue : 1a : construct with default capacity : create failing test
+CircularQueue : 1a : construct with default capacity : create passing code
+CircularQueue : 1a : construct with default capacity : refactored main/test code
+
+CircularQueue : 1b : construct with specified capacity : create failing test
+CircularQueue : 1b : construct with specified capacity : create passing code
+CircularQueue : 1b : construct with specified capacity : refactored main/test code
+
+CircularQueue : 2a : add element to the queue : create failing test
+CircularQueue : 2a : add element to the queue : create passing code
+CircularQueue : 2a : add element to the queue : refactored main/test code
+
+CircularQueue : 2b : add throws IllegalStateException when queue is full : create failing test
+CircularQueue : 2b : add throws IllegalStateException when queue is full : create passing code
+CircularQueue : 2b : add throws IllegalStateException when queue is full : refactored main/test code
+
+CircularQueue : 3a : isEmpty returns true for a new queue : create failing test
+CircularQueue : 3a : isEmpty returns true for a new queue : create passing code
+CircularQueue : 3a : isEmpty returns true for a new queue : refactored main/test code
+
+CircularQueue : 3b : isEmpty returns false if the queue has items :  create failing test
+CircularQueue : 3b : isEmpty returns false if the queue has items :  create passing code
+CircularQueue : 3b : isEmpty returns false if the queue has items :  refactored main/test code
+
+CircularQueue : 4a : remove returns head of queue : create failing test
+CircularQueue : 4a : remove returns head of queue : create passing code
+CircularQueue : 4a : remove returns head of queue : refactored main/test code
+
+CircularQueue : 4b : remove removes head of queue : create failing test
+CircularQueue : 4b : remove removes head of queue : create passing code
+CircularQueue : 4b : remove removes head of queue : refactored main/test code
+
+CircularQueue : 4c : remove handles wrapping around the array : create failing test
+CircularQueue : 4c : remove handles wrapping around the array : create passing code
+CircularQueue : 4c : remove handles wrapping around the array : refactored main/test code
+
+CircularQueue : 4d : remove throws IllegalStateException when queue is empty : create failing test
+CircularQueue : 4d : remove throws IllegalStateException when queue is empty : create passing code
+CircularQueue : 4d : remove throws IllegalStateException when queue is empty : refactored main/test code
+
+CircularQueue : 5a : peek returns head of queue without removing it : create failing test
+CircularQueue : 5a : peek returns head of queue without removing it : create passing code
+CircularQueue : 5a : peek returns head of queue without removing it : refactored main/test code
+
+CircularQueue : 5b : peek returns null when queue is empty : create failing test
+CircularQueue : 5b : peek returns null when queue is empty : create passing code
+CircularQueue : 5b : peek returns null when queue is empty : refactored main/test code
+
+CircularQueue : 5c : peek handles wrapping around the array : create failing test
+CircularQueue : 5c : peek handles wrapping around the array : create passing code
+CircularQueue : 5c : peek handles wrapping around the array : refactored main/test code
